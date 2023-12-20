@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
 nav{
-    background-image:url('IMG_2894.jpg') ;
+    background-image:url("IMG_2894.jpg") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +71,9 @@ a{
  max-width: 426px;
  margin: 0 ;
 }
+.icon-height-sm{
+    height: 40px;
+}
 .wait{
     display: none;
 }
@@ -127,5 +130,8 @@ a{
        }
        .wait-md-cards{
         display: flex;
+       }
+       .icons-height-sm{
+        height: 60px;
        }
 }
